@@ -1,0 +1,200 @@
+﻿/* css général
+
+    reset css*/
+body{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url("Muli-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-SemiBold-slnt=0.ttf");
+}
+    @font-face {
+        font-family: "Inter1";
+        src: url("Inter-Light-slnt=0.ttf");
+    }
+
+.cv {
+    display:flex;
+    flex-direction:row;
+
+}
+/* partie gauche */
+
+#partiegauche {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 300px;
+    background-color: #536DFE;
+    
+}
+
+.image{
+    padding:20px;
+}
+.titrepartiegauche {
+    text-align: center;
+    color: #536DFE;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: Inter;
+}
+
+.contact{
+    display:flex;
+    flex-direction:column;
+}
+
+.aproposdemoi{
+    flex-grow:2;
+}
+
+.textegauche {
+    text-align: justify;
+    font-size: 15px;
+    margin: 40px;
+    overflow-wrap: break-word;
+    font-family: Inter1;
+}
+
+
+.image{
+    text-align: center;
+}
+
+.loisirs {
+    overflow-wrap: break-word;
+}
+.texteloisirs{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+}
+
+
+
+
+/* partie droite */
+#partiedroite {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin:40px;
+}
+
+.titreformation {
+    border-bottom: 2px solid #536DFE;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+.titreexperienceprofessionnelle {
+    border-bottom: 2px solid #536DFE;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.titrerecommandations {
+    border-bottom: 2px solid #536DFE;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+h1 {
+    padding-left: 10px;
+}
+.nomprenom {
+    margin-top: 50px;
+    margin-bottom:70px;
+    
+}
+
+.prenom {
+    font-size: 40px;
+    color: #536dfe;
+}
+.nom {
+    font-size: 40px;
+    font-family: Muli;
+    padding: 10px;
+}
+
+.soustitre{
+
+}
+.devel {
+    border-bottom: 3px solid #536DFE;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 7px;
+}
+h3 img {
+        float: left;
+        vertical-align: central;
+        margin-right :20px;
+        padding-bottom : 20px;
+
+    }
+.imagedroite{
+    padding-right:10px;
+}
+.soustitre {
+    font-family: Inter;
+    
+}
+
+.formation1 {
+    display:flex;
+    flex-direction:row;
+    
+}
+
+
+.date1 {
+    width:30%;
+    
+    
+}
+
+.titretextedroite{
+    margin-bottom:10px
+}
+.texteformation {
+    width: 70%;
+    margin-bottom: 30px;
+}
+.soustitretextedroite {
+    margin-bottom: 10px;
+    font-family: Inter1;
+}
+
+.textdate1{
+    margin-left:15px;
+}
+.ville1 {
+    margin-left: 24px;
+}
+
+.texterecommandations{
+    display:flex;
+    flex-direction:row;
+}
+
+.textedroite {
+    text-align: justify;
+    font-size: 15px;
+    overflow-wrap: break-word;
+    font-family: Inter1;
+}
