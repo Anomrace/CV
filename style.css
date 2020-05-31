@@ -20,7 +20,7 @@ body {
     src: url("Inter-Light-slnt=0.ttf");
 }
 
-@media all and (min-width:0px) {
+@media screen and (min-width:0px) {
 
     .nomprenommin {
         margin: 0px;
@@ -98,7 +98,7 @@ body {
     }
 }
 
-@media all and (min-width:750px) {
+@media screen and (min-width:750px) {
 
     #partiegauche1 {
         display: flex;
@@ -147,7 +147,7 @@ body {
     }
 }
 
-@media all and (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .nomprenommin {
         font-size: 0;
     }
