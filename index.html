@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" /><!--css normal-->
-    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /><!--pour les petites résolutions-->
+    <link rel="stylesheet" href="style1.css" /><!--css normal-->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <title>CV Eugène Carmona</title>
 </head>
@@ -11,22 +10,26 @@
 <body>
 
     <!--grande div pour classer les deux parties-->
-
-    <div class="cv">
-
     <!--section 1 partie gauche -->
-        <section id="partiegauche">
+    <div class="partiegauche">
+        <header class="header1">
+            <p class="nomprenommin"><span class="prenommin">EUGENE</span><span class="nommin">CARMONA</span></p>
+            <p class="soustitremin"><span class="develmin">Dével</span>oppeur web freelance</p>
+        </header>
+        <div class="image">
+            <img src="eugene_cv.png" alt="Photo de Eugène Carmona" />
+        </div>
+        <section id="partiegauche1">
+
             <!--image-->
-            <div class="image">
-                <img src="eugene_cv.png" alt="Photo de Eugène Carmona" />
-            </div>
-        
+           
+
             <!--Contacts-->
             <div class="contacts">
                 <!--Titre-->
                 <h3 class="titrepartiegauche">CONTACT</h3>
                 <!--texte-->
-                <div class="textegauche">
+                <div class="textecontacts">
                     <p>
                         Adresse<br />
                         31 Chemin de Chandieu<br />
@@ -53,17 +56,17 @@
                         Skype<br />
                         @carmonaeugene
                     </p>
-                   
+
                 </div>
-            
+
             </div>
-           
+
             <!--A propos de moi-->
             <div class="aproposdemoi">
                 <!--titre-->
                 <h3 class="titrepartiegauche">A PROPOS DE MOI</h3>
                 <!--texte-->
-                <p class="textegauche">
+                <p class="texteaproposdemoi">
                     Personne aux multiples talents,
                     je suis actuellement web developpeur en freelance et directeur
                     d'une école de musique en Suisse, proche de Lausanne.
@@ -71,9 +74,9 @@
                     Je developpe aussi une pratique de coaching de vie.
                 </p>
             </div>
-            
-            
-            
+
+
+
             <!--Loisirs-->
             <div class="loisirs">
                 <h3 class="titrepartiegauche">LOISIRS</h3>
@@ -85,194 +88,212 @@
                 </p>
                 <!--icones à voir comment les mettre-->
             </div>
-            
+
         </section>
-
-
-        <!-- Section 2 Partie droite -->
-        <section id="partiedroite">
-
-    
-
-            <!--Nom prénom fonction-->
-            <header class="nomprenom">
-                <h1><span class="prenom">EUGENE</span><span class="nom">CARMONA</span></h1>
-                <h2 class="soustitre"><span class="devel">Dével</span>oppeur web freelance</h2>
-            </header>
-
-            <!--Formation-->
-            <div class="formation">
-
-                <h3 class="titreformation"><img src="graduation-cap-solid.png" class="imagedroite" />FORMATION</h3>
-                <!--formation1-->
-                <section class="formation1">
-
-                    <div class="date1">
-                        <img src="dot-circle-regular.png" class="imagedroite"/>
-                        Mai 2020 - Novembre 2020<br />
-                        <div class="ville1">Paris</div>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-
-                </section>
-                <!--formation2-->
-                <section class="formation1">
-                    <div class="date1">
-                        <img src="circle-solid.png" class="imagedroite"/>
-                        Septembre 2016 - Juin 2020<br />
-                        <span class="ville1">Lausanne</span>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
-                        <div class="soustitretextedroite">Master of Arts Direction d'Orchestre</div>
-                        <div class="textedroite">
-                            Formation complète la direction d'ensembles professionnels et amateurs
-                        </div>
-
-                </section>
-                <!--formation3-->
-                <section class="formation1">
-                    <div class="date1">
-                        <img src="circle-solid.png" class="imagedroite" />
-                        Septembre 2017 - Juin 2018<br />
-                        <span class="ville1">Lausanne</span>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE BERNE</div>
-                        <div class="soustitretextedroite">Diplom of Advance Studies Direction d'Orchestre</div>
-                        <div class="textedroite">
-                            Formation complète la direction d'ensembles professionnels et amateurs
-                        </div>
-
-                </section>
-
-
-
-                <!--formation 4-->
-                <section class="formation1">
-                    <div class="date1">
-                        <img src="circle-solid.png"class="imagedroite" />
-                        Septembre 2014 - Juin 2016<br />
-                        <span class="ville1">Lausanne</span>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
-                        <div class="soustitretextedroite">Master of Arts Pédagogie</div>
-                        <div class="textedroite">
-                            Formation complète pour l'enseignement de la musique au niveau professionnel et amateur
-                        </div>
-
-                </section>
-
-                <!--formation 5-->
-                <section class="formation1">
-                    <div class="date1">
-                        <img src="circle-solid.png" class="imagedroite"/>
-                        Septembre 2011 - juin 2014<br />
-                        <span class="ville1">Lausanne</span>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
-                        <div class="soustitretextedroite">Bachelor of Arts Piano</div>
-                        <div class="textedroite">
-                            Formation complète niveau License de pianiste professionnel
-                        </div>
-
-                </section>
-            </div>
-            
-            <!--experience professionnelle-->
-            <div class="experienceprofessionnelle">
-                <h3 class="titreexperienceprofessionnelle"><img src="briefcase-solid.png" class="imagedroite" />EXPERIENCE PROFESSIONNELLE</h3>
-
-                <section class="formation1">
-
-                    <div class="date1">
-                        <img src="dot-circle-regular.png" class="imagedroite"/>
-                        Mai 2020 - Novembre 2020<br />
-                        <div class="ville1">Paris</div>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-
-                </section>
-
-                <section class="formation1">
-
-                    <div class="date1">
-                        <img src="circle-solid.png" class="imagedroite"/>
-                        Mai 2020 - Novembre 2020<br />
-                        <div class="ville1">Paris</div>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-
-                </section>
-
-                <section class="formation1">
-
-                    <div class="date1">
-                        <img src="circle-solid.png" class="imagedroite"/>
-                        Mai 2020 - Novembre 2020<br />
-                        <div class="ville1">Paris</div>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-
-                </section>
-
-                <section class="formation1">
-
-                    <div class="date1">
-                        <img src="circle-solid.png" class="imagedroite"/>
-                        Mai 2020 - Novembre 2020<br />
-                        <div class="ville1">Paris</div>
-                    </div>
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-
-                </section>
-
-
-            </div>
-
-            <!--Recommandations-->
-            <div class="recommandations">
-                <h3 class="titrerecommandations"><img src="pen-solid.png" class="imagedroite" />RECOMMANDATIONS</h3>
-                <!--Recommandation 1-->
-                <section class="texterecommandations">
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-
-                    <!--Recommandation 2-->
-                    <div class="texteformation">
-                        <div class="titretextedroite">OPENCLASSROOM</div>
-                        <div class="soustitretextedroite"> Junior Web Developer</div>
-                        <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                    </div>
-                </section>
-            </div>
-            
-         </section>
     </div>
+
+    <!-- Section 2 Partie droite -->
+    <section id="partiedroite">
+
+
+
+        <!--Nom prénom fonction-->
+        <header class="nomprenommax">
+            <p><span class="prenom">EUGENE</span><span class="nom">CARMONA</span></p>
+            <p class="soustitre"><span class="devel">Dével</span>oppeur web freelance</p>
+        </header>
+
+        <!--Formation-->
+        <div class="formation">
+
+            <h3 class="titreformation"><img src="graduation-cap-solid.png" class="imagedroite" />FORMATION</h3>
+            <!--formation1-->
+            <section class="formation1">
+
+                <div class="date1">
+                    <img src="dot-circle-regular.png" class="imagedroite" />
+                    <div class="ville1">
+                        Mai 2020 - Novembre 2020<br />
+                        Paris
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+
+            </section>
+            <!--formation2-->
+            <section class="formation1">
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Septembre 2016 - Juin 2020<br />
+                        Lausanne
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
+                    <div class="soustitretextedroite">Master of Arts Direction d'Orchestre</div>
+                    <div class="textedroite">
+                        Formation complète la direction d'ensembles professionnels et amateurs
+                    </div>
+                </div>
+            </section>
+            <!--formation3-->
+            <section class="formation1">
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Septembre 2017 - Juin 2018<br />
+                        Lausanne
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE BERNE</div>
+                    <div class="soustitretextedroite">Diplom of Advance Studies Direction d'Orchestre</div>
+                    <div class="textedroite">
+                        Formation complète la direction d'ensembles professionnels et amateurs
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--formation 4-->
+            <section class="formation1">
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Septembre 2014 - Juin 2016<br />
+                        Lausanne
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
+                    <div class="soustitretextedroite">Master of Arts Pédagogie</div>
+                    <div class="textedroite">
+                        Formation complète pour l'enseignement de la musique au niveau professionnel et amateur
+                    </div>
+                </div>
+            </section>
+
+            <!--formation 5-->
+            <section class="formation1">
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Septembre 2011 - juin 2014<br />
+                        Lausanne
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
+                    <div class="soustitretextedroite">Bachelor of Arts Piano</div>
+                    <div class="textedroite">
+                        Formation complète niveau License de pianiste professionnel
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--experience professionnelle-->
+        <div class="experienceprofessionnelle">
+            <h3 class="titreexperienceprofessionnelle"><img src="briefcase-solid.png" class="imagedroite" />EXPERIENCE PROFESSIONNELLE</h3>
+
+            <section class="formation1">
+
+                <div class="date1">
+                    <img src="dot-circle-regular.png" class="imagedroite" />
+                    <div class="ville1">
+                        Mai 2020 - Novembre 2020<br />
+                        Paris
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+
+            </section>
+
+            <section class="formation1">
+
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Mai 2020 - Novembre 2020<br />
+                        Paris
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+
+            </section>
+
+            <section class="formation1">
+
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Mai 2020 - Novembre 2020<br />
+                        Paris
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+
+            </section>
+
+            <section class="formation1">
+
+                <div class="date1">
+                    <img src="circle-solid.png" class="imagedroite" />
+                    <div class="ville1">
+                        Mai 2020 - Novembre 2020<br />
+                        Paris
+                    </div>
+                </div>
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+
+            </section>
+
+
+        </div>
+
+        <!--Recommandations-->
+        <div class="recommandations">
+            <h3 class="titrerecommandations"><img src="pen-solid.png" class="imagedroite" />RECOMMANDATIONS</h3>
+            <!--Recommandation 1-->
+            <section class="texterecommandations">
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+
+                <!--Recommandation 2-->
+                <div class="texteformation">
+                    <div class="titretextedroite">OPENCLASSROOM</div>
+                    <div class="soustitretextedroite"> Junior Web Developer</div>
+                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
+                </div>
+            </section>
+        </div>
+
+    </section>
+
 </body>
 </html>
