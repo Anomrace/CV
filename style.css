@@ -1,6 +1,177 @@
-﻿/* css général
+﻿/*meilleur css fait depuis les mediaqueries*/
 
-    reset css*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url("Muli-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-SemiBold-slnt=0.ttf");
+}
+
+@font-face {
+    font-family: "Inter1";
+    src: url("Inter-Light-slnt=0.ttf");
+}
+
+@media all and (min-width:0px) {
+
+    .nomprenommin {
+        margin: 0px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .prenommin {
+        margin-right: 5px;
+    }
+
+    .nommin {
+        margin-left: 5px;
+    }
+
+    .soustitremin {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .image {
+        background-color: #536DFE;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #partiegauche1 {
+        background-color: #536DFE;
+        text-align: center;
+        font-family: Inter;
+    }
+
+    .header1 {
+        background-color: black;
+        color: #536DFE;
+        font-family: Inter;
+    }
+
+    .titrepartiegauche {
+        background-color: black;
+        color: #536DFE;
+        margin-top: 0px;
+    }
+
+    k
+    .texteaproposdemoi {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    #partiedroite {
+        font-family: Inter;
+    }
+
+    .nomprenommax {
+        font-size: 0px;
+    }
+
+    .image {
+        padding-top: 15px;
+    }
+
+    .loisirs {
+        padding-bottom: 15px;
+    }
+
+    .texteloisirs {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media all and (min-width:750px) {
+
+    #partiegauche1 {
+        display: flex;
+    }
+
+    .image {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contacts {
+        min-width: 33%;
+    }
+
+    .textecontacts {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aproposdemoi {
+        min-width: 34%;
+    }
+
+    .loisirs {
+        min-width: 33%;
+    }
+
+    .texteloisirs {
+        flex-direction: column;
+    }
+
+    .tennis {
+        padding-bottom: 25px;
+    }
+
+    .book {
+        padding-bottom: 25px;
+    }
+
+    .bike {
+        padding-bottom: 25px;
+    }
+
+    .hinking {
+        padding-bottom: 25px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .nomprenommin {
+        font-size: 0;
+    }
+
+    .soustitremin {
+        font-size: 0;
+    }
+
+    .nomprenommax {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* css général de base
+
+    reset css
 body{
     padding:0;
     margin:0;
@@ -73,7 +244,7 @@ body{
     }
 
 }
-/* partie gauche */
+/* partie gauche 
 
 #partiegauche {
     display: flex;
@@ -131,7 +302,7 @@ body{
 
 
 
-/* partie droite */
+/* partie droite 
 #partiedroite {
     font-family: Inter;
     display: flex;
@@ -272,3 +443,5 @@ h3 img {
     overflow-wrap: break-word;
     font-family: Inter1;
 }
+
+*/
