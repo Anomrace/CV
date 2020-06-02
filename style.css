@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
 }
-p
+
 @font-face {
     font-family: "Muli";
     src: url("Muli-ExtraLight.ttf");
@@ -121,7 +121,7 @@ p
     }
 }
 
-@media only screen and (min-width:1000px)  {
+@media only screen and (min-width:700px)  {
 
     #partiegauche1 {
         display: flex;
