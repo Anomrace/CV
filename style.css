@@ -107,19 +107,25 @@ body {
         text-align:center;
     }
 
+    .textedroite{
+        padding-bottom:10px;
+    }
     .titreformation {
         border-bottom: 2px solid #536DFE;
         padding-bottom:10px;
         
     }
+
     .titreexperienceprofessionnelle {
         border-bottom: 2px solid #536DFE;
         padding-bottom: 10px;
     }
+
     .titrerecommandations {
         border-bottom: 2px solid #536DFE;
         padding-bottom: 10px;
     }
+   
 }
 
 @media only screen and (min-width:700px)  {
