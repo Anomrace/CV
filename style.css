@@ -35,6 +35,10 @@
     padding-top: 1em;
     padding-bottom: 1em;
   }
+  img{
+    border-style: ridge;
+    border-radius: 200px;
+  }
   .header__titre{
     display: flex;
     flex-direction: column;
@@ -147,11 +151,13 @@
     padding-top: 1em;
 
   }
-
+  .cv  i {
+    color: #7986CB;
+  }
   .cv h3{
 
 
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #7986CB;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0.5em;

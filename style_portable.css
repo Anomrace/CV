@@ -130,7 +130,9 @@ h2{
 .cv__section__elem:nth-of-type(odd){
   background: #E0E0E0;
 }
-
+.cv i {
+  color: #7986CB;
+}
 
 
 .cv h3{
