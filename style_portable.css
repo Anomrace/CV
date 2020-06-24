@@ -1,0 +1,202 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url("Muli-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-SemiBold-slnt=0.ttf");
+}
+
+@font-face {
+    font-family: "Inter1";
+    src: url("Inter-Light-slnt=0.ttf");
+}
+
+@media screen and (max-width: 1023px){
+
+
+
+header{
+  text-align: center;
+
+}
+figure{
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #7986CB;
+}
+img{
+  border-style: ridge;
+  border-radius: 200px;
+}
+h1{
+  font-family: Muli;
+}
+.h1__prenom {
+  color: #7986CB;
+  font-family: Inter;
+  margin-right: 0.4em;
+}
+
+h2{
+  font-family: Inter;
+  font-size: 1.6em;
+
+}
+/*
+.h2__souligne{
+  border-bottom: 2px solid #7986CB;
+}
+*/
+.info {
+  font-family: Inter;
+  background-color: #7986CB;
+}
+.info h3{
+  background-color: black;
+  color: #7986CB;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+.info h4{
+
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.info__contacts {
+  text-align: center;
+}
+.info__contacts a{
+  font-size: 1em;
+  font-family: Muli;
+  color:black;
+}
+
+.info__contacts p{
+  font-family: Muli;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.info__contacts h4:first-child{
+  margin-top: 0;
+}
+.info__a-propos p{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1em;
+  font-family: Muli;
+  text-align: justify;
+}
+
+.info__loisirs{
+  text-align: center;
+
+}
+
+.info__loisirs i{
+  font-size: 2.5em;
+  padding-bottom: 0.75em;
+}
+
+.fa-book:before{
+  padding-right: 1em;
+}
+
+.fa-hiking:before{
+  padding-left: 1em;
+}
+
+
+
+/* css arcticle CV*/
+
+.cv__section__elem{
+  font-family: Inter1;
+  padding-left: 2.3em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+
+}
+.cv__section__elem:nth-of-type(odd){
+  background: #E0E0E0;
+}
+
+
+
+.cv h3{
+
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.cv__section p{
+  margin: 0;
+  padding-top: 1em;
+
+}
+.cv__section i{
+  padding-right: 1em;
+}
+
+.cv__section__ville{
+  padding-left: 2.3em;
+}
+
+.cv h4{
+  margin: 0;
+  padding-top: 0.6em;
+  font-size: 1.2em;
+
+}
+
+.cv h5{
+  font-size: 1em;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-style: italic;
+
+}
+.cv h6{
+  margin: 0;
+  font-size: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+}
+
+.cv__section a{
+  color: black;
+  font-size: 1em;
+}
+
+.cv__section__elem__date {
+  padding-top: 0.5em;
+}
+
+.cv__section__rec{
+  font-family: Inter1;
+  padding-bottom: 1em;
+}
+.cv__section__rec__elem{
+  padding-left: 2em;
+}
+.cv__section__rec__elem:first-child{
+  background: #E0E0E0;
+}
+}

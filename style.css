@@ -1,6 +1,4 @@
-﻿/*meilleur css fait depuis les mediaqueries*/
-
-body {
+﻿body {
     padding: 0;
     margin: 0;
 }
@@ -20,363 +18,202 @@ body {
     src: url("Inter-Light-slnt=0.ttf");
 }
 
-@media only screen and (min-width:0px) {
 
-    .nomprenommin {
-        margin: 0px;
-        padding-top: 10px;
-        text-align: center;
-        font-size: 35px;
-    }
+@media screen and (min-width: 1024px) {
 
-    .prenommin {
-        margin-right: 5px;
-    }
+  main{
+    display: flex;
+  }
+  header{
+    display: flex;
+  }
+  figure{
+    margin: 0;
+    text-align: center;
+    background-color: #7986CB;
+    width: 30%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .header__titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding-left: 40px;
+  }
+  img{
+    width: 10em;
+  }
+  h1{
+    font-family: Muli;
+  }
+  .h1__prenom {
+    color: #7986CB;
+    font-family: Inter;
+    margin-right: 0.4em;
+  }
 
-    .nommin {
-        margin-left: 5px;
-    }
+  h2{
+    font-family: Inter;
+    font-size: 1.2em;
+  }
 
-    .soustitremin {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-bottom: 10px;
-        text-align: center;
-        font-size: 25px;
-    }
+  .h2__souligne{
+    border-bottom: 2px solid #7986CB;
+  }
 
-    .image {
-        background-color: #536DFE;
-        text-align: center;
-        padding-bottom: 10px;
-        padding-top: 15px;
-    }
+  .info {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    background-color: #7986CB;
+    width: 30%;
+  }
+  .info h3{
+    background-color: black;
+    color: #7986CB;
+    font-size: 1.5em;
+    text-align: center;
 
-    #partiegauche1 {
-        background-color: #536DFE;
-        text-align: center;
-        font-family: Inter;
-    }
+  }
+  .info h3:first-of-type{
+    margin-top: 0;
+  }
+  .info__contacts{
+    padding-bottom: 1em;
+  }
+  .info__contacts :not(h3){
+    padding-left: 1em;
+  }
 
-    .header1 {
-        background-color: black;
-        color: #536DFE;
-        font-family: Inter;
-    }
+  .info__contacts a{
+    font-size: 1em;
+    font-family: Muli;
+    color: black;
+  }
 
-    .titrepartiegauche {
-        background-color: black;
-        color: #536DFE;
-        margin-top: 0px;
-        margin-bottom:0px;
-        padding-bottom:10px;
-        padding-top:10px;
-    }
+  .info p{
+    font-family: Muli;
+    font-size: 1em;
 
-    
-    .texteaproposdemoi {
-        margin-left: 35px;
-        margin-right: 35px;
-        text-align: justify;
-    }
+  }
+  .info__contacts a{
+    color:black;
+  }
 
-    #partiedroite {
-        font-family: Inter;
-        margin: 40px;
-    }
+  .info__contacts h4{
+    margin-bottom: 0;
+  }
+  .info__a-propos{
+    flex-grow: 2;
+  }
+  .info__a-propos p{
+    padding-left: 1em;
+    padding-right: 1em;
 
-    .nomprenommax {
-        font-size: 0px;
-    }
+  }
 
-    .imagedroite{
-        padding-right:10px;
-    }
-    
+  .info__loisirs{
+    text-align: center;
+  }
 
-    .loisirs {
-        padding-bottom: 15px;
-    }
+  .info__loisirs i{
+    font-size: 2.5em;
+    padding-bottom: 0.75em;
+  }
 
-    .texteloisirs {
-        display: flex;
-        justify-content: space-around;
-    }
+  .fa-book:before{
+    padding-right: 1em;
+  }
 
-    #partiedroite{
-        text-align:center;
-    }
+  .fa-hiking:before{
+    padding-left: 1em;
+  }
 
-    .textedroite{
-        padding-bottom:10px;
-    }
-    .titreformation {
-        border-bottom: 2px solid #536DFE;
-        padding-bottom:10px;
-        
-    }
 
-    .titreexperienceprofessionnelle {
-        border-bottom: 2px solid #536DFE;
-        padding-bottom: 10px;
-    }
 
-    .titrerecommandations {
-        border-bottom: 2px solid #536DFE;
-        padding-bottom: 10px;
-    }
-   
+  /* css arcticle CV*/
+
+  .cv{
+    width: 70%;
+  }
+  .cv__section__elem{
+    display: flex;
+    font-family: Inter1;
+    padding-left: 2.3em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+  }
+
+  .cv h3{
+
+
+    border-bottom: 2px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2.3em;
+    margin-right: 1em;
+
+  }
+  h5{
+    margin: 0;
+    padding-bottom: 0.5em;
+  }
+
+  .cv__section p{
+    margin: 0;
+    padding-top: 1em;
+
+  }
+  .cv__section i{
+    padding-right: 1em;
+  }
+  .cv__section__elem__date{
+    width: 40%;
+  }
+  .cv__section__elem__cont{
+    width: 60%;
+  }
+  .cv__section__ville{
+    padding-left: 2.3em;
+  }
+
+
+  .cv h4{
+    margin-top: 0;
+
+    margin-bottom: 0.5em;
+  }
+
+  .cv h6{
+    margin: 0;
+
+  }
+
+  .cv__section a{
+    color: black;
+    font-size: 0.8em;
+  }
+
+  .cv__section__elem:last-child{
+    justify-content: space-around;
+  }
+
+  .cv__section__rec{
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter1;
+    padding-left: 2.3em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+  }
+
+
 }
-
-@media only screen and (min-width:700px)  {
-
-    #partiegauche1 {
-        display: flex;
-    }
-
-    .image {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .contacts {
-        min-width: 33%;
-    }
-
-    .textecontacts {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .aproposdemoi {
-        min-width: 34%;
-    }
-
-    .loisirs {
-        min-width: 33%;
-    }
-
-    .texteloisirs {
-        flex-direction: column;
-    }
-
-    .tennis {
-        padding-bottom: 25px;
-    }
-
-    .book {
-        padding-bottom: 25px;
-    }
-
-    .bike {
-        padding-bottom: 25px;
-    }
-
-    .hinking {
-        padding-bottom: 25px;
-    }
-
-   
-
-   
-    
-}
-
-@media all and (min-width:1200px) {
-
-    body{
-        display:flex;
-        flex-direction:row;
-
-    }
-    .header1{
-        display:none;
-    }
-    .partiegauche {
-        display:flex;
-        flex-direction:column;
-        
-        max-width: 25%;
-        
-    }
-    #partiegauche1 {
-        display: flex;
-        flex-direction: column;
-        min-height:90%;
-    }
-    .nomprenommin {
-        font-size: 0;
-    }
-
-    .soustitremin {
-        font-size: 0;
-    }
-
-    .textecontacts{
-        padding-bottom:35px;
-        text-align:left;
-        padding-left:35px;
-        padding-right:35px;
-    }
-
-    .aproposdemoi {
-        flex-grow: 2;
-    }
-
-    .loisirs{
-        
-    }
-    .texteloisirs{
-        flex-direction:row;
-    }
-    .nomprenommax {
-        font-size: 50px;
-    }
-
-    
-
-    #partiedroite {
-        font-family: Inter;
-        display: flex;
-        flex-direction: column;
-        margin-top:0px;
-        padding-left: 40px;
-        padding-right: 40px;
-        max-width:75%;
-        text-align:left;
-    }
-
-    p{
-        margin-bottom:0px;
-    }
-
-    .soustitre{
-        font-size:30px;
-        margin-top:0px;
-    }
-    .formation {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .experienceprofessionnelle {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .titreformation {
-        border-bottom: 2px solid #536DFE;
-        padding-bottom: 0px;
-        font-size: 25px;
-    }
-
-    .titreexperienceprofessionnelle {
-        border-bottom: 2px solid #536DFE;
-        padding-bottom: 0px;
-        font-size: 25px;
-        
-    }
-
-    .titrerecommandations {
-        border-bottom: 2px solid #536DFE;
-        padding-bottom: 20px;
-        font-size: 25px;
-    }
-
-    h1 {
-        padding-left: 10px;
-    }
-
-    .nomprenommax {
-        margin-top: 00px;
-        margin-bottom: 70px;
-    }
-
-    .prenom {
-        font-size: 40px;
-        color: #536dfe;
-    }
-
-    .nom {
-        font-size: 40px;
-        font-family: Muli;
-        padding: 10px;
-    }
-
-
-    .devel {
-        border-bottom: 3px solid #536DFE;
-        padding-top: 5px;
-        padding-left: 7px;
-    }
-
-    h3 {
-        padding-top: 10px;
-        padding-left: 7px;
-    }
-
-    h3 img {
-        float: left;
-        vertical-align: central;
-        margin-right: 20px;
-        padding-bottom: 20px;
-    }
-
-    .imagedroite {
-        padding-right: 10px;
-        padding-top: 5px;
-        
-    }
-
-    .soustitre {
-        font-family: Inter;
-    }
-
-    .formation1 {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .date {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        width: 35%;
-        
-    }
-
-    .titretextedroite {
-        margin-bottom: 10px
-    }
-
-    .texte {
-        width: 65%;
-        margin-bottom: 30px;
-        padding-left: 10px;
-    }
-
-    .soustitretextedroite {
-        margin-bottom: 10px;
-        font-family: Inter1;
-    }
-
-    .ville {
-        margin-left: 24px;
-    }
-
-    .textedroite {
-        text-align: justify;
-        font-size: 15px;
-        overflow-wrap: break-word;
-        font-family: Inter1;
-    }
-    .texterecommandations {
-        display: flex;
-    }
-}
-
-
-
-
-
-

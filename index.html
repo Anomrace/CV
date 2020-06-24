@@ -3,332 +3,203 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="style.css" /><!--css normal-->
+    <link rel="stylesheet" href="style_portable.css" /><!--css pour les portables et tablettes-->
+    <link rel="stylesheet" href="style.css" /><!--css pour le reste-->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/713f89622a.js" crossorigin="anonymous"></script>
-    <title>CV Eugène Carmona</title>
+    <title>CV de Eugène Carmona</title>
 </head>
 
 <body>
 
-    <main>
+
+        <!--Titre principal-->
         <header>
-            <img src="eugene_cv.png" alt="Photo de Eugène Carmona" />
-            <h1>EUGENE CARMONA</h1>
-            <h2>Développeur web freelance</h2>
+          <figure class="header__photo-cv">
+            <img src="eugene_cv.png" alt="Photo de Eugène Carmona"/>
+          </figure>
+          <div class="header__titre">
+            <h1><span class="h1__prenom">EUGENE</span>CARMONA</h1>
+            <h2><span class="h2__souligne">Dével</span>oppeur web freelance</h2>
+          </div>
         </header>
-        <article class="informations">
-            <section class="contacts">
+        <!--partie informations Eugène Carmona-->
+        <main>
+        <article class="info">
+            <!--informations pour me contacter-->
+            <section class="info__contacts">
                 <h3>CONTACT</h3>
                 <h4>Adresse</h4>
-                <a href="https://goo.gl/maps/g4bQMJP3zErSCaWc7">
+                <p>
                     31 Chemin de Chandieu<br />
                     1006 Lausanne<br />
                     Suisse
-                </a>
+                </p>
                 <h4>Téléphone</h4>
-                <a href="tel:+41789148085">+41789148085</a>
+                <a href="tel:+41789148085" aria-label="mon numéro de téléphone">+41 78 914 80 85</a>
                 <h4>Email</h4>
-                <a href="mailto:carmonaeugene@gmail.com">carmonaeugene@gmail.com</a>
+                <a href="mailto:carmonaeugene@gmail.com" aria-label="écrivez-moi un mail">carmonaeugene@gmail.com</a>
                 <h4>Site web</h4>
-                <a href="https://anomrace.github.io/CV">anomrace.github.io/CV</a>
+                <a href="https://anomrace.github.io/CV" aria-label="mon site internet">anomrace.github.io/CV</a>
                 <h4>Skype</h4>
-                <a href="callto:Anomrace77">@Anomrace77</a>
+                <a href="callto:Anomrace77" aria-label="mon skype">@Anomrace77</a>
             </section>
-            <section class="a-propos-de-moi">
+            <!--paragraphe pour me présenter-->
+            <section class="info__a-propos">
                 <h3>A PROPOS DE MOI</h3>
                 <p>
                     Personne aux multiples talents,
                     je suis actuellement web developpeur en freelance et directeur
                     d'une école de musique en Suisse, proche de Lausanne.
-                    Je suis pianiste professionnel, chef d'orchestre, pédagogue recherché.
+                    Je suis pianiste profes<wbr>sionnel, chef d'orchestre, pédagogue recherché.
                     Je developpe aussi une pratique de coaching de vie.
                 </p>
             </section>
-            <section class="loisirs">
+            <!--informations sur mes loisirs-->
+            <section class="info__loisirs">
                 <h3>LOISIRS</h3>
+                <i class="fas fa-book"></i>
+                <i class="fas fa-biking"></i>
+                <i class="fas fa-hiking"></i>
 
             </section>
         </article>
+
+        <!--mon cv-->
+        <article class="cv">
+            <!--mes formations-->
+            <section class="cv__section">
+                <h3><i class="fas fa-university"></i>FORMATIONS</h3>
+
+                <div class="cv__section__elem">
+
+                    <div class="cv__section__elem__date">
+                      <i class="far fa-dot-circle"></i>
+                      Mai 2020 - Nov 2020<br />
+                      <span class="cv__section__ville">Paris
+                      </span>
+                    </div>
+                    <div class="cv__section__elem__cont">
+                      <h4>OPENCLASSROOM</h4>
+                      <h5>Web Developpeur</h5>
+                      <span class="cv__section__desc">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript
+                      </span>
+                    </div>
+                </div>
+                <div class="cv__section__elem">
+                    <div class="cv__section__elem__date">
+                      <i class="far fa-circle"></i>
+                      Sept 2016 - Juin 2020<br />
+                      <span class="cv__section__ville">Lausanne</span>
+                    </div>
+                    <div class="cv__section__elem__cont">
+                      <h4>HAUTE ECOLE DE MUSIQUE DE LAUSANNE</h4>
+                      <h5>Master de Direction d'Orchestre</h5>
+                      <span class="cv__section__desc">Formation complète la direction d'ensembles professionnels et amateurs</span>
+                  </div>
+                </div>
+                <div class="cv__section__elem">
+                    <div class="cv__section__elem__date"><i class="far fa-circle"></i>
+                      Sept 2017 - Juin 2018<br />
+                      <span class="cv__section__ville">Berne</span>
+                    </div>
+                    <div class="cv__section__elem__cont">
+                      <h4>HAUTE ECOLE DE MUSIQUE DE BERNE</h4>
+                      <h5>Diplome of Advance Studies in Conducting</h5>
+                      <span class="cv__section__desc">Formation complète la direction d'ensembles professionnels et amateurs</span>
+                  </div>
+                </div>
+                <div class="cv__section__elem">
+                    <div class="cv__section__elem__date"><i class="far fa-circle"></i>
+                      Sept 2014 - Juin 2016<br />
+                      <span class="cv__section__ville">Lausanne</span>
+                    </div>
+                    <div class="cv__section__elem__cont">
+                      <h4>HAUTE ECOLE DE MUSIQUE DE LAUSANNE</h4>
+                      <h5>Master de pédagogie</h5>
+                      <span class="cv__section__desc">Formation complète pour l'enseignement de la musique au niveau professionnel et amateur</span>
+                    </div>
+                </div>
+                  <div class="cv__section__elem">
+                      <div class="cv__section__elem__date"><i class="far fa-circle"></i>
+                        Sept 2011 - Juin 2014<br />
+                        <span class="cv__section__ville">Lausanne</span>
+                      </div>
+                      <div class="cv__section__elem__cont">
+                        <h4>HAUTE ECOLE DE MUSIQUE DE LAUSANNE</h4>
+                        <h5>Bachelor of arts en Piano</h5>
+                        <span class="cv__section__desc">Formation complète pour la pratique du piano au niveau professionnel.</span>
+                      </div>
+                </div>
+
+            </section>
+            <!--mon experience-->
+            <section class="cv__section">
+                <h3><i class="fas fa-briefcase"></i>EXPERIENCE PROFESSIONELLE</h3>
+                <div class="cv__section__elem">
+                    <div class="cv__section__elem__date">
+                     <i class="far fa-dot-circle"></i>
+                     Mai 2019 - Présent<br />
+                     <span class="cv__section__ville">Préverenges</span>
+                    </div>
+                    <div class="cv__section__elem__cont">
+                      <h4>ARCA MUSICA</h4>
+                      <h5>Directeur de l'Ecole de Musique ARCA MUSICA et Professeur de Piano</h5>
+                      <span class="cv__section__desc">Fonctions administratives, comptabilité, gestion de la communication, création de site web et enseignement.</span>
+                  </div>
+                </div>
+                <div class="cv__section__elem">
+                    <div class="cv__section__elem__date"><i class="far fa-circle"></i>
+                      Août 2011 - Présent<br />
+                      <span class="cv__section__ville">Mont-sur-Lausanne</span>
+                    </div>
+                    <div class="cv__section__elem__cont">
+                      <h4>ECOLE DE MUSIQUE VAUDOISE EN RESEAU</h4>
+                      <h5>Professeur de piano</h5>
+                      <span class="cv__section__desc">Gestion d'une classe de 15 à 20 élève incluant des examens et l'organisation des cours dans une école reconnue par l'Etat Suisse.</span>
+                  </div>
+              </div>
+              <div class="cv__section__elem">
+                  <div class="cv__section__elem__date"><i class="far fa-circle"></i>
+                    Sept 2015 - Nov 2019<br />
+                    <span class="cv__section__ville">Forel</span>
+                  </div>
+                  <div class="cv__section__elem__cont">
+                    <h4>ECHO DU LAC</h4>
+                    <h5>Directeur Artistique</h5>
+                    <span class="cv__section__desc">Direction d'un ensemble de 30 personnes pour des activités culturelles dans la région de la Broye en Suisse.</span>
+                  </div>
+              </div>
+
+
+
+
+            </section>
+            <!--mes recommandations-->
+            <section class="cv__section">
+                <h3><i class="far fa-edit"></i>RECOMMANDATIONS</h3>
+                <div class="cv__section__rec">
+
+
+                  <div class="cv__section__rec__elem">
+                      <h4>JANE DOE</h4>
+                      <h5>Directrice, Agence Najodee</h5>
+                      <h6>Téléphone</h6>
+                      <a href="tel:+33719283746" aria-label="téléphone Jane Doe">+33 7 19 28 37 46</a>
+                      <h6>Email</h6>
+                      <a href="info@nohnjoe.com" aria-label="mail Jane Doe">info@najodee.com</a>
+                  </div>
+                  <div class="cv__section__rec__elem">
+                      <h4>JOHN DOE</h4>
+                      <h5>Directeur, Agence Nohn Joe</h5>
+                      <h6>Téléphone</h6>
+                      <a href="tel:+33791827364" aria-label="téléphone John Doe">+33 7 91 82 73 64</a>
+                      <h6>Email</h6>
+                      <a href="info@najodee.com" aria-label="mail John Doe">info@nohnjoe.com</a>
+                  </div>
+                </div>
+            </section>
+        </article>
     </main>
-
-    <!--section 1 partie gauche -->
-    <div class="partiegauche">
-        <header class="header1">
-            <p class="nomprenommin"><span class="prenommin">EUGENE</span><span class="nommin">CARMONA</span></p>
-            <p class="soustitremin"><span class="develmin">Dével</span>oppeur web freelance</p>
-        </header>
-        <div class="image">
-            <img src="eugene_cv.png" alt="Photo de Eugène Carmona" />
-        </div>
-        <section id="partiegauche1">
-
-         
-           
-
-            <!--Contacts-->
-            <div class="contacts">
-                <!--Titre-->
-                <h3 class="titrepartiegauche">CONTACT</h3>
-                <!--texte-->
-                <div class="textecontacts">
-                    <p>
-                        Adresse<br />
-                        31 Chemin de Chandieu<br />
-                        1006 Lausanne<br />
-                        Suisse
-                    </p>
-                    
-                    <p>
-                        Téléphone<br />
-                        0041789148085
-                    </p>
-
-                    <p>
-                        Email<br />
-                        carmonaeugene@gmail.com
-                    </p>
-
-                    <p>
-                        Site Web<br />
-                        www.carmonaeugene.com
-                    </p>
-
-                    <p>
-                        Skype<br />
-                        @carmonaeugene
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!--A propos de moi-->
-            <div class="aproposdemoi">
-                <!--titre-->
-                <h3 class="titrepartiegauche">A PROPOS DE MOI</h3>
-                <!--texte-->
-                <p class="texteaproposdemoi">
-                    Personne aux multiples talents,
-                    je suis actuellement web developpeur en freelance et directeur
-                    d'une école de musique en Suisse, proche de Lausanne.
-                    Je suis pianiste professionnel, chef d'orchestre, pédagogue recherché.
-                    Je developpe aussi une pratique de coaching de vie.
-                </p>
-            </div>
-
-
-
-            <!--Loisirs-->
-            <div class="loisirs">
-                <h3 class="titrepartiegauche">LOISIRS</h3>
-                <p class="texteloisirs">
-                    <span class="tennis"><img src="table-tennis-solid.png" alt="tabletennis" /></span>
-                    <span class="book"><img src="book-solid.png" alt="book" /></span>
-                    <span class="bike"><img src="biking-solid.png" alt="bike" /></span>
-                    <span class="hiking"><img src="hiking-solid.png" alt="hike" /></span>
-                </p>
-                <!--icones à voir comment les mettre-->
-            </div>
-
-        </section>
-    </div>
-
-    <!-- Section 2 Partie droite -->
-    <section id="partiedroite">
-
-
-
-        <!--Nom prénom fonction-->
-        <header class="nomprenommax">
-            <p><span class="prenom">EUGENE</span><span class="nom">CARMONA</span></p>
-            <p class="soustitre"><span class="devel">Dével</span>oppeur web freelance</p>
-        </header>
-
-        <!--Formation-->
-        <div class="formation">
-
-            <h3 class="titreformation"><img src="graduation-cap-solid.png" alt="icone_formation" class="imagedroite" />FORMATION</h3>
-            <!--formation1-->
-            <div class="formation1">
-
-                <div class="date">
-                    <img src="dot-circle-regular.png" alt="point_circulaire" class="imagedroite" />
-                    <div class="ville">
-                        Mai 2020 - Novembre 2020<br />
-                        Paris
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">OPENCLASSROOM</div>
-                    <div class="soustitretextedroite"> Junior Web Developer</div>
-                    <div class="textedroite">Formation complète pour le developpement de site en front-end. Langage : HTML5, CSS3, Javascript</div>
-                </div>
-
-            </div>
-            <!--formation2-->
-            <div class="formation1">
-                <div class="date">
-                    <img src="circle-solid.png" alt="point" class="imagedroite" />
-                    <div class="ville">
-                        Septembre 2016 - Juin 2020<br />
-                        Lausanne
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
-                    <div class="soustitretextedroite">Master of Arts Direction d'Orchestre</div>
-                    <div class="textedroite">
-                        Formation complète la direction d'ensembles professionnels et amateurs
-                    </div>
-                </div>
-            </div>
-            <!--formation3-->
-            <div class="formation1">
-                <div class="date">
-                    <img src="circle-solid.png" alt="point" class="imagedroite" />
-                    <div class="ville">
-                        Septembre 2017 - Juin 2018<br />
-                        Lausanne
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE BERNE</div>
-                    <div class="soustitretextedroite">Diplom of Advance Studies Direction d'Orchestre</div>
-                    <div class="textedroite">
-                        Formation complète la direction d'ensembles professionnels et amateurs
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!--formation 4-->
-            <div class="formation1">
-                <div class="date">
-                    <img src="circle-solid.png" alt="point" class="imagedroite" />
-                    <div class="ville">
-                        Septembre 2014 - Juin 2016<br />
-                        Lausanne
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
-                    <div class="soustitretextedroite">Master of Arts Pédagogie</div>
-                    <div class="textedroite">
-                        Formation complète pour l'enseignement de la musique au niveau professionnel et amateur
-                    </div>
-                </div>
-            </div>
-
-            <!--formation 5-->
-            <div class="formation1">
-                <div class="date">
-                    <img src="circle-solid.png" alt="point" class="imagedroite" />
-                    <div class="ville">
-                        Septembre 2011 - juin 2014<br />
-                        Lausanne
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">HAUTE ECOLE DE MUSIQUE DE LAUSANNE</div>
-                    <div class="soustitretextedroite">Bachelor of Arts Piano</div>
-                    <div class="textedroite">
-                        Formation complète niveau License de pianiste professionnel
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--experience professionnelle-->
-        <div class="experienceprofessionnelle">
-            <h3 class="titreexperienceprofessionnelle"><img src="briefcase-solid.png" alt="imageexperience" class="imagedroite" />EXPERIENCE PROFESSIONNELLE</h3>
-
-            <div class="formation1">
-
-                <div class="date">
-                    <img src="dot-circle-regular.png" alt="point_circulaire" class="imagedroite" />
-                    <div class="ville">
-                        Mai 2019 - Présent<br />
-                        Préverenges
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">ARCA MUSICA</div>
-                    <div class="soustitretextedroite">Directeur de l'Ecole de Musique ARCA MUSICA et Professeur de Piano</div>
-                    <div class="textedroite">Fonctions administratives, comptabilité, gestion de la communication, création de site web et enseignement.</div>
-                </div>
-
-            </div>
-
-            <div class="formation1">
-
-                <div class="date">
-                    <img src="circle-solid.png" alt="point" class="imagedroite" />
-                    <div class="ville">
-                        Août 2011 - Présent<br />
-                        Mont-sur-Lausanne
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">ECOLE DE MUSIQUE VAUDOISE EN RESEAU</div>
-                    <div class="soustitretextedroite">Professeur de piano</div>
-                    <div class="textedroite">Gestion d'une classe de 15 à 20 élève incluant des examens et l'organisation des cours dans une école reconnue par l'Etat Suisse.</div>
-                </div>
-
-            </div>
-
-            <div class="formation1">
-
-                <div class="date">
-                    <img src="circle-solid.png" alt="point" class="imagedroite" />
-                    <div class="ville">
-                        Septembre 2015 - Novembre 2019<br />
-                        Forel (Suisse)
-                    </div>
-                </div>
-                <div class="texte">
-                    <div class="titretextedroite">ECHO DU LAC</div>
-                    <div class="soustitretextedroite">Directeur Artistique</div>
-                    <div class="textedroite">Direction d'un ensemble de 30 personnes pour des activités culturelles dans la région de la Broye en Suisse.</div>
-                </div>
-
-            </div>
-
-          
-
-
-        </div>
-
-        <!--Recommandations-->
-        <div class="recommandations">
-            <h3 class="titrerecommandations"><img src="pen-solid.png" alt="crayon" class="imagedroite" />RECOMMANDATIONS</h3>
-            <!--Recommandation 1-->
-            <div class="texterecommandations">
-                <div class="texte">
-                    <div class="titretextedroite">JANE DOE</div>
-                    <div class="soustitretextedroite">Directrice, Agence Najodee</div>
-                    <div class="textedroite">
-                        Téléphone : 07 19 28 37 46 <br />
-                        Email : info@najodee.com
-                    </div>
-                </div>
-            
-
-            <!--Recommandation 2-->
-                <div class="texte">
-                    <div class="titretextedroite">JOHN DOE</div>
-                    <div class="soustitretextedroite">Directeur, Agence Nohn Joe</div>
-                    <div class="textedroite">
-                        Téléphone : 07 91 82 73 64<br />
-                        Email : info@nohnjoe.com
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-    </section>
-
 </body>
 </html>
