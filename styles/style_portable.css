@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: "Muli";
-    src: url("https://github.com/Anomrace/CV/tree/master/fonts/Muli-ExtraLight.ttf");
+    src: url("fonts/Muli-ExtraLight.ttf");
 }
 
 @font-face {
     font-family: "Inter";
-    src: url("https://github.com/Anomrace/CV/tree/master/fonts/Inter-SemiBold-slnt=0.ttf");
+    src: url("fonts/Inter-SemiBold-slnt=0.ttf");
 }
 
 @font-face {
     font-family: "Inter1";
-    src: url("https://github.com/Anomrace/CV/tree/master/fonts/Inter-Light-slnt=0.ttf");
+    src: url("fonts/Inter-Light-slnt=0.ttf");
 }
 
 @media screen and (max-width: 1023px){
