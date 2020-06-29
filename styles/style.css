@@ -38,6 +38,7 @@
   img{
     border-style: ridge;
     border-radius: 200px;
+    width: 10em;
   }
   .header__titre{
     display: flex;
@@ -46,9 +47,7 @@
     width: 60%;
     padding-left: 40px;
   }
-  img{
-    width: 10em;
-  }
+
   h1{
     font-family: Muli;
   }
@@ -58,7 +57,7 @@
     margin-right: 0.4em;
   }
 
-  h2{
+  .header__titre h2{
     font-family: Inter;
     font-size: 1.2em;
   }
@@ -74,20 +73,24 @@
     background-color: #7986CB;
     width: 30%;
   }
-  .info h3{
+  .info h2{
     background-color: black;
     color: #7986CB;
     font-size: 1.5em;
     text-align: center;
 
+
   }
-  .info h3:first-of-type{
+  .info h3{
+    margin-bottom: 0;
+  }
+  .info h2:first-of-type{
     margin-top: 0;
   }
   .info__contacts{
     padding-bottom: 1em;
   }
-  .info__contacts :not(h3){
+  .info__contacts :not(h2){
     padding-left: 1em;
   }
 
@@ -100,13 +103,14 @@
   .info p{
     font-family: Muli;
     font-size: 1em;
-
+    margin-top: 0;
   }
+
   .info__contacts a{
     color:black;
   }
 
-  .info__contacts h4{
+  .info__contacts h2{
     margin-bottom: 0;
   }
   .info__a-propos{
@@ -145,32 +149,39 @@
   .cv__section__elem{
     display: flex;
     font-family: Inter1;
-    padding-left: 2.3em;
-    padding-right: 1em;
     padding-bottom: 1em;
     padding-top: 1em;
 
   }
+  .cv__section{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
   .cv  i {
     color: #7986CB;
   }
-  .cv h3{
-
-
+  .cv h2{
     border-bottom: 2px solid #7986CB;
-    margin-top: 0;
-    margin-bottom: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin-left: 2.3em;
-    margin-right: 1em;
+    
+
 
   }
-  h5{
-    margin: 0;
-    padding-bottom: 0.5em;
-  }
 
+  .cv h3 {
+    margin-top: 0;
+    font-size: 1em;
+  }
+  .cv h4{
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+  .cv h5 {
+    text-decoration: 1em;
+    margin:0;
+    padding-top: 0.5em;
+  }
   .cv__section p{
     margin: 0;
     padding-top: 1em;
@@ -180,26 +191,22 @@
     padding-right: 1em;
   }
   .cv__section__elem__date{
-    width: 40%;
+    width: 30%;
   }
   .cv__section__elem__cont{
-    width: 60%;
+    width: 70%;
   }
   .cv__section__ville{
     padding-left: 2.3em;
   }
 
 
-  .cv h4{
+  .cv h2{
     margin-top: 0;
 
     margin-bottom: 0.5em;
   }
 
-  .cv h6{
-    margin: 0;
-
-  }
 
   .cv__section a{
     color: black;
