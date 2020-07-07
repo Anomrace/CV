@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -132,15 +133,16 @@ body {
 
   .cv{
     width: 70%;
+
   }
-  .cv__section__elem{
+  .cv__article__elem{
     display: flex;
     font-family: 'Inter', sans-serif;
     padding-bottom: 1em;
     padding-top: 1em;
 
   }
-  .cv__section{
+  .cv__article{
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -169,21 +171,21 @@ body {
     margin:0;
     padding-top: 0.5em;
   }
-  .cv__section p{
+  .cv__article p{
     margin: 0;
     padding-top: 1em;
 
   }
-  .cv__section i{
+  .cv__article i{
     padding-right: 1em;
   }
-  .cv__section__elem__date{
+  .cv__article__elem__date{
     width: 30%;
   }
-  .cv__section__elem__cont{
+  .cv__article__elem__cont{
     width: 70%;
   }
-  .cv__section__ville{
+  .cv__article__ville{
     padding-left: 2.3em;
   }
 
@@ -195,16 +197,16 @@ body {
   }
 
 
-  .cv__section a{
+  .cv__article a{
     color: black;
     font-size: 0.8em;
   }
 
-  .cv__section__elem:last-child{
+  .cv__article__elem:last-child{
     justify-content: space-around;
   }
 
-  .cv__section__rec{
+  .cv__article__rec{
     display: flex;
     justify-content: space-around;
     font-family: 'Inter', sans-serif;
