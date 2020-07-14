@@ -67,6 +67,9 @@
     padding-left: 0;
     background: white;
   }
+  .cv__article__elem:nth-of-type(odd){
+    background: white;
+  }
   .cv__article{
     padding-left: 2em;
     padding-right: 2em;
@@ -91,14 +94,11 @@
   .cv__article i{
     padding-right: 1em;
   }
-  .cv__section__elem__date{
-    width: 35%;
+  .cv__article__elem__date{
     padding-right: 1em;
+    width: 35%;
   }
-  .cv__section__elem:nth-of-type(odd){
-    background: white;
 
-  }
   .cv__article__elem__cont{
     width: 70%;
   }
@@ -118,8 +118,7 @@
     padding-top: 1em;
 
   }
-  .cv__section__rec__elem:first-child{
+  .cv__article__rec__elem:first-child{
     background: white;
   }
-
 }
