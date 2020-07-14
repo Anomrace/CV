@@ -97,6 +97,7 @@
   }
   .cv__section__elem:nth-of-type(odd){
     background: white;
+
   }
   .cv__article__elem__cont{
     width: 70%;
