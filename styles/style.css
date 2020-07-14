@@ -57,15 +57,15 @@
   .cv{
     width: 70%;
   }
-  .cv__article__elem{
+  .cv__section__elem{
     display: flex;
     padding-left: 0;
     background: white;
   }
-  .cv__article__elem:nth-of-type(odd){
+  .cv__section__elem:nth-of-type(odd){
     background: white;
   }
-  .cv__article{
+  .cv__section{
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -85,27 +85,27 @@
     margin: 0;
 
   }
-  .cv__article i{
+  .cv__section i{
     padding-right: 1em;
   }
-  .cv__article__elem__date{
+  .cv__section__elem__date{
     padding-right: 1em;
     width: 35%;
   }
-  .cv__article__elem__cont{
+  .cv__section__elem__cont{
     width: 65%;
   }
   .cv__section__elem:last-child{
     justify-content: space-around;
   }
-  .cv__article__rec{
+  .cv__section__rec{
     display: flex;
     justify-content: space-around;
     padding-right: 1em;
     padding-top: 1em;
 
   }
-  .cv__article__rec__elem:first-child{
+  .cv__section__rec__elem:first-child{
     background: white;
   }
 }
