@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 body {
     padding: 0;
@@ -6,7 +6,7 @@ body {
 }
 
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 0px){
 
 
 
@@ -38,11 +38,7 @@ h2{
   font-size: 1.6em;
 
 }
-/*
-.h2__souligne{
-  border-bottom: 2px solid #7986CB;
-}
-*/
+
 .info {
   font-family: Inter;
   background-color: #7986CB;
@@ -93,17 +89,32 @@ h2{
 
 .info__loisirs i{
   font-size: 2.5em;
-  padding-bottom: 0.75em;
+  padding: 0.15em;
+  border-style: ridge;
+  border-radius: 200px;
+  border-color: black;
 }
-
-.fa-book:before{
-  padding-right: 1em;
+i.fas.fa-biking{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
-
-.fa-hiking:before{
-  padding-left: 1em;
+i.fas.fa-hiking{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
 }
-
+i.fas.fa-book{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
 
 
 /* css arcticle CV*/
@@ -132,6 +143,7 @@ h2{
   margin-bottom: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  font-size: 1.4em;
 }
 
 .cv__article p{
