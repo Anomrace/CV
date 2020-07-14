@@ -119,14 +119,14 @@ i.fas.fa-book{
 
 /* css arcticle CV*/
 
-.cv__section__elem{
+.cv__article__elem{
   font-family: 'Inter', sans-serif;
   padding-left: 2.3em;
   padding-right: 1em;
   padding-bottom: 1em;
 
 }
-.cv__section__elem:nth-of-type(odd){
+.cv__article__elem:nth-of-type(odd){
   background: #E0E0E0;
 }
 .cv i {
@@ -146,16 +146,16 @@ i.fas.fa-book{
   font-size: 1.4em;
 }
 
-.cv__section p{
+.cv__article p{
   margin: 0;
   padding-top: 1em;
 
 }
-.cv__section i{
+.cv__article i{
   padding-right: 1em;
 }
 
-.cv__section__ville{
+.cv__article__ville{
   padding-left: 2.3em;
 }
 
@@ -182,23 +182,23 @@ i.fas.fa-book{
 
 }
 
-.cv__section a{
+.cv__article a{
   color: black;
   font-size: 1em;
 }
 
-.cv__section__elem__date {
+.cv__article__elem__date {
   padding-top: 0.5em;
 }
 
-.cv__section__rec{
+.cv__article__rec{
   font-family: 'Inter', sans-serif;
   padding-bottom: 1em;
 }
-.cv__section__rec__elem{
+.cv__article__rec__elem{
   padding-left: 2em;
 }
-.cv__section__rec__elem:first-child{
+.cv__article__rec__elem:first-child{
   background: #E0E0E0;
 }
 }
