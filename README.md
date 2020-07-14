@@ -21,6 +21,10 @@ Construction d'un site internet en une page qui représente mon cv sur la base d
 
 ### Dernière évolution 
 
+- Changements par rapport aux recommandations Examinateur OC 
+  - correction article en section
+  - Optimisation css 
+  - Ajout des bordure ronde autour des icones
 - Finalisation du projets et derniers changements avant présentation (10 juillet 2020)
 - Création du Readme (29 juin 2020)
 - Création d'une branche test pour faire les modifications rapides sans toucher à la branche Master (29 juin 2020)
